@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(233, 233, 233);
+  padding-top: 60px;
+}
+
+.download-button {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  transition: opacity 0.15s;
+  border: 1px solid green;
+  font-family: arial;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 50px;
+  padding: 4px;
+  box-shadow: 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.download-button:hover {
+  opacity: 0.8;
+}
+
+.download-button:active {
+  opacity: 0.6;
+}
+
+.videos {
+  width: 100%;
+  position: relative;
+}
+
+.link {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-family: arial;
+  color: rgb(96, 26, 96);
+}
+
+.link:hover {
+  text-decoration: underline;
+}

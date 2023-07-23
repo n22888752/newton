@@ -1,0 +1,35 @@
+.welcome-text {
+  border-bottom-color: green;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 500;
+  max-height: 50px;
+}
+
+.video-description {
+  color: rgb(84, 24, 24);
+  font-family: arial;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.thanks {
+  font-size: 45px;
+  font-family: Magneto;
+  color: green;
+  text-align: center;
+}
+
+.welcome {
+  font-size: 45px;
+  color: green;
+  font-family: Magneto;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 600px;
+  margin-left: 15px;
+}
